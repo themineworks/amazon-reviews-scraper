@@ -1,0 +1,15 @@
+{
+  "name": "amazon-reviews-scraper",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Star rating, verified badge, full text and review images by ASIN, across 8 marketplaces. Python, Node.js and cURL clients for the Amazon Reviews Scraper on Apify, pay per result.",
+  "main": "amazon_reviews_scraper.mjs",
+  "scripts": {
+    "start": "node amazon_reviews_scraper.mjs"
+  },
+  "dependencies": {
+    "apify-client": "^2.9.0"
+  },
+  "license": "MIT",
+  "homepage": "https://themineworks.com/actors/amazon-reviews/"
+}
